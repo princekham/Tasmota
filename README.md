@@ -5,3 +5,5 @@ Installing Tasmota with Tasmotizer, it worked perfectly fine. Get the Tasmotizer
 There is an exe file for window users.
 For setting timezone, get the command at https://tasmota-tz.netlify.app/
 
+For setting up a swith -> configure module -> choose generic (18) -> then make the setting up
+
