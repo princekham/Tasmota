@@ -9,3 +9,5 @@ For setting up a swith -> configure module -> choose generic (18) -> then make t
 
 For Raspberry part
 Setting up static IP for Raspberry PI - https://polargeek.com/static-ip-raspberry-pi/
+
+![image](https://user-images.githubusercontent.com/16104631/200354673-5c4d0114-e3ee-41ad-9bbf-06a5f9adaa65.png)
