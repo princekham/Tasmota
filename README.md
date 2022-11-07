@@ -10,7 +10,7 @@ For setting up a swith -> configure module -> choose generic (18) -> then make t
 For Raspberry part
 Setting up static IP for Raspberry PI - https://polargeek.com/static-ip-raspberry-pi/
 
-Some notes on using ESP8266
+Some notes on using ESP8266 (more at https://wiki.politick.ca/pages/viewpage.action?pageId=8454628)
 
 ![image](https://user-images.githubusercontent.com/16104631/200354673-5c4d0114-e3ee-41ad-9bbf-06a5f9adaa65.png)
 
