@@ -7,3 +7,5 @@ For setting timezone, get the command at https://tasmota-tz.netlify.app/
 
 For setting up a swith -> configure module -> choose generic (18) -> then make the setting up
 
+For Raspberry part
+Setting up static IP for Raspberry PI - https://polargeek.com/static-ip-raspberry-pi/
