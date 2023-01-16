@@ -16,3 +16,7 @@ Some notes on using ESP8266 (more at https://wiki.politick.ca/pages/viewpage.act
 
 ![image](https://user-images.githubusercontent.com/16104631/200355128-d8e0e11d-7e60-405a-823a-c895de02e63e.png)
 
+
+![image](https://user-images.githubusercontent.com/16104631/212595891-340ca250-fc7a-40d0-92af-64f1599359be.png)
+
+
