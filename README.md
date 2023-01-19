@@ -20,3 +20,10 @@ Some notes on using ESP8266 (more at https://wiki.politick.ca/pages/viewpage.act
 ![image](https://user-images.githubusercontent.com/16104631/212595891-340ca250-fc7a-40d0-92af-64f1599359be.png)
 
 
+Setting UP MQTT in Tasmota
+
+![image](https://user-images.githubusercontent.com/16104631/213329857-0160d4da-11f7-4918-a354-ab12b696af8c.png)
+
+1. Put username and password
+2. put friendly name in the topic field
+3. and save
