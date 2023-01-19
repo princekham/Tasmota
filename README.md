@@ -27,3 +27,7 @@ Setting UP MQTT in Tasmota
 1. Put username and password
 2. put friendly name in the topic field
 3. and save
+
+For more than one button, we use topic and payload
+
+Ref: https://www.youtube.com/watch?v=9j4fua0cuWU&ab_channel=digiblurDIY
