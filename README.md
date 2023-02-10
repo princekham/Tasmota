@@ -31,3 +31,16 @@ Setting UP MQTT in Tasmota
 For more than one button, we use topic and payload
 
 Ref: https://www.youtube.com/watch?v=9j4fua0cuWU&ab_channel=digiblurDIY
+
+
+HTTP command
+
+![image](https://user-images.githubusercontent.com/16104631/218124778-e7933d13-1806-4dd3-aa21-46dab7724699.png)
+
+
+![image](https://user-images.githubusercontent.com/16104631/218124942-d42926b6-a15c-4916-a4e6-4e59ef273329.png)
+
+MQTT command
+
+![image](https://user-images.githubusercontent.com/16104631/218125085-6450002e-d749-4a8b-9759-a7d37c5b9184.png)
+
