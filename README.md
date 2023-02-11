@@ -44,3 +44,8 @@ MQTT command
 
 ![image](https://user-images.githubusercontent.com/16104631/218125085-6450002e-d749-4a8b-9759-a7d37c5b9184.png)
 
+
+Setting Group Topic
+- grouptopic pressurepump
+- setoption85 1
+
