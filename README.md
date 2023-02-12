@@ -53,4 +53,4 @@ Tasmota Client
 
 ![image](https://user-images.githubusercontent.com/16104631/218308700-4d1c740b-6ffe-46df-9761-1bf8563f1ad9.png)
 
-
+Custom Build - platformio run -e tasmota (at gitpodio)
