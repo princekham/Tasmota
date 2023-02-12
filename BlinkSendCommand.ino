@@ -1,4 +1,7 @@
 /*
+
+  To send command - cmnd/<device name>_fb/ClientSend <payload>  // Added by Sao
+  
   BlinkRelay.ino - Example for TasmotaClient receiving the FUNC_EVERY_SECOND
                    callback and respond by toggling the LED as configured.
                    This example also extends sending commands back to the
