@@ -59,3 +59,5 @@ Tasmota Client
 - Then choose tasmota, then open -  user_config_override.h
 - make changes
 - Custom Build - platformio run -e tasmota (at gitpodio)
+- then go to buildoutput
+- under firmirmware, download tasmota.bin file
