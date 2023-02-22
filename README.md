@@ -53,4 +53,9 @@ Tasmota Client
 
 ![image](https://user-images.githubusercontent.com/16104631/218308700-4d1c740b-6ffe-46df-9761-1bf8563f1ad9.png)
 
+
+Go to - https://tasmota.github.io/docs/Compile-your-build/#compiling-tools
+Then open Gitpod - https://tasmota.github.io/docs/Gitpod/
+Then choose tasmota, then open -  user_config_override.h
+make changes
 Custom Build - platformio run -e tasmota (at gitpodio)
