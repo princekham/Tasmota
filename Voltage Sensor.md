@@ -12,3 +12,5 @@ ZMPT101B
 LD1117AV33
  - PINOUT - G | O/p | I/p
 ![image](https://user-images.githubusercontent.com/16104631/228725944-08bd25c6-a7d9-4b36-9d20-3c4ae6031139.png)
+
+I will use one ADC avaiable on the board for reciving Voltage input
