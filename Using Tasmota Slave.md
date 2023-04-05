@@ -27,3 +27,6 @@ To custom build a Tasmota device
 - then open the master realease at this page https://tasmota.github.io/docs/Gitpod/
 - Ref: https://www.youtube.com/watch?v=WashxTcHiDc&ab_channel=vccground
 
+I configure the pins as follow
+
+![image](https://user-images.githubusercontent.com/16104631/229973892-6e79c9a0-1a1d-4e69-ba62-95414813117e.png)
