@@ -29,4 +29,5 @@ To custom build a Tasmota device
 
 I configure the pins as follow
 
-![image](https://user-images.githubusercontent.com/16104631/229973892-6e79c9a0-1a1d-4e69-ba62-95414813117e.png)
+![image](https://user-images.githubusercontent.com/16104631/229974012-f212ec57-3858-4f39-a7fa-7a4fe7cc5fc1.png)
+
