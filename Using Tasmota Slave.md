@@ -31,3 +31,7 @@ I configure the pins as follow
 
 ![image](https://user-images.githubusercontent.com/16104631/229974012-f212ec57-3858-4f39-a7fa-7a4fe7cc5fc1.png)
 
+I use the following compiler.
+
+- https://github.com/benzino77/tasmocompiler
+- To run on port 8080 ```docker run --rm --name tasmocompiler -p 8080:3000 benzino77/tasmocompiler```
