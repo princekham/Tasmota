@@ -35,3 +35,7 @@ I use the following compiler.
 
 - https://github.com/benzino77/tasmocompiler
 - To run on port 8080 ```docker run --rm --name tasmocompiler -p 8080:3000 benzino77/tasmocompiler```
+
+For Tasmota Client
+
+- https://tasmota.github.io/docs/TasmotaClient/
