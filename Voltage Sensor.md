@@ -241,3 +241,10 @@ void loop() {
   
    }
 ```
+
+I used the following to convert double interger to char
+
+```     String myString = "publish tele/voltage/";
+    myString += String(myDouble, 2); // append the double value with two decimal places
+    client.ExecuteCommand(myString.c_str()); // send the formatted string as a char array
+    ```
