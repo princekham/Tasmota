@@ -382,6 +382,6 @@ void loop() {
   client.loop();
 
 }
- ```
+```
  
- <b> for adjusting voltage CW - lower the voltage and CCW - raise the voltage</b>
+- for adjusting voltage CW - lower the voltage and CCW - raise the voltage
