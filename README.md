@@ -1,5 +1,16 @@
 # Tasmota
 
+Initial Configuration
+- connect to the power
+- look for tasmota device in the wifi list
+- log lin to 192.168.4.1
+- add WiFi credentials
+- configure other -> rename
+- copy and note the MAC address
+- configure pwoer on state - console -> poweronstate 0 or 1
+- configure time zone - console -> Backlog Latitude 17.1750495; Longitude 95.9999652; TimeZone +06:30
+- set ip address - console ->ipaddress1 192.168.
+
 Download the image (tasmota.bin.gz file) from http://ota.tasmota.com/tasmota/release/
 Installing Tasmota with Tasmotizer, it worked perfectly fine. Get the Tasmotizer at https://github.com/tasmota/tasmotizer
 There is an exe file for window users.
