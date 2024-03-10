@@ -1,3 +1,4 @@
 - I use https://github.com/benzino77/tasmocompiler 
 - I set up on my server
 - I use different port ```docker run --rm --name tasmocompiler -p 8080:3000 benzino77/tasmocompiler```
+- To install docker on Raspberry Pi 4 ( https://linuxconfig.org/how-to-install-docker-on-raspberry-pi)
