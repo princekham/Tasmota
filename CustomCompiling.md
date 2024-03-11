@@ -8,4 +8,6 @@
 
 - To install docker on Raspberry Pi 4 ( https://linuxconfig.org/how-to-install-docker-on-raspberry-pi)
 - https://github.com/tasmota/docker-tasmota
-- 
+
+## For ESP32 Node MCU V3
+- Driver installation (https://sparks.gogo.co.nz/ch340.html)
