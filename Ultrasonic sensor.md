@@ -8,7 +8,7 @@ Echo - D14,
 
 Trigger - D12,
 
-Vcc - Vin,
+Vcc - Vin, (5 V)
 
 https://tasmota.github.io/docs/HC-SR04/#wiring
 
