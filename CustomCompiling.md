@@ -2,11 +2,15 @@
 - I set up on my server from above website
 ![image](https://github.com/princekham/Tasmota/assets/16104631/1f0f380d-dd1c-4f3b-8e54-01fb64bc72a1)
 
-``` sudo docker pull benzino77/tasmocompiler```
-
-``` docker run --rm --name tasmocompiler -p 8080:3000 benzino77/tasmocompiler```
 
   - I use different port ```docker run --rm --name tasmocompiler -p 8080:3000 benzino77/tasmocompiler```
+  - Please run the following to lines for custom compilation
+
+``` sudo docker pull benzino77/tasmocompiler```
+
+``` sudo docker run --rm --name tasmocompiler -p 8080:3000 benzino77/tasmocompiler```
+
+
 
   ![image](https://github.com/princekham/Tasmota/assets/16104631/61afe9a0-8f6f-4d2c-9fe6-8c5cbfee7c98)
 
