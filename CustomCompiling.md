@@ -1,3 +1,12 @@
+## Latest method (10/5/2014)
+- goto Gitpod (https://arendst-tasmota-q1eu6x7zswt.ws-us110.gitpod.io/)
+- And then goto tasmota and then to "user config override .h" file
+- နောက်ဆုံး endif ရှေ့မှာ ကိုယ့်ရဲ့ codes ကို ထည့်
+- then run ```platformio run -e tasmota ```
+
+
+______________________________________________________________________________________
+
 - I use https://github.com/benzino77/tasmocompiler 
 - I set up on my server from above website
 ![image](https://github.com/princekham/Tasmota/assets/16104631/1f0f380d-dd1c-4f3b-8e54-01fb64bc72a1)
@@ -19,3 +28,5 @@
 
 ## For ESP32 Node MCU V3
 - Driver installation (https://sparks.gogo.co.nz/ch340.html)
+
+
