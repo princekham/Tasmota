@@ -3,6 +3,7 @@
 - And then goto tasmota and then to "user config override .h" file
 - နောက်ဆုံး endif ရှေ့မှာ ကိုယ့်ရဲ့ codes ကို ထည့်
 - then run ```platformio run -e tasmota ```
+- Then go to buildoutput -> firmware -> use the bin version
 
 
 ______________________________________________________________________________________
