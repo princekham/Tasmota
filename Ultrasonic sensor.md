@@ -6,7 +6,7 @@ Pin Connection -
 
 Echo - D7 (GPIO13),
 
-Trigger - D12,
+Trigger - D6 (GPIO12),
 
 Vcc - Vin, (5 V)
 
