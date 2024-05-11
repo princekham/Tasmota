@@ -10,6 +10,11 @@ Trigger - D12,
 
 Vcc - Vin, (5 V)
 
-https://tasmota.github.io/docs/HC-SR04/#wiring
+- Note: This one needs a voltage divider (2.2K and 1.2K)
 
-This one needs customized firmware. 
+![image](https://github.com/princekham/Tasmota/assets/16104631/958be304-f546-4702-8f04-aee5e89b8b47)
+
+
+https://tasmota.github.io/docs/HC-SR04/#wiring
+This one needs tasmota-sensors binary firmware. It can be downloaded from https://ota.tasmota.com/tasmota/release/
+
