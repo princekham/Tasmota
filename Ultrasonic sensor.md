@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=HIcaZ6m76TM&ab_channel=ADTechKnow
 
 Pin Connection -
 
-Echo - D14,
+Echo - D7 (GPIO13),
 
 Trigger - D12,
 
