@@ -10,6 +10,7 @@ Initial Configuration
 - configure pwoer on state - console -> poweronstate 0 or 1
 - configure time zone - console -> Backlog Latitude 17.1750495; Longitude 95.9999652; TimeZone +06:30
 - set ip address - console ->ipaddress1 192.168.
+- SetOption65 1 (to disable power interruptions to reset the device - 1 to disable; 0 to enable)
 
 Download the image (tasmota.bin.gz file) from http://ota.tasmota.com/tasmota/release/
 Installing Tasmota with Tasmotizer, it worked perfectly fine. Get the Tasmotizer at https://github.com/tasmota/tasmotizer
