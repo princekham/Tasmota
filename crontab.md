@@ -1,3 +1,14 @@
+#### To install crontab
+- Update your package list:
+
+``` sudo apt update```
+
+- Install cron: install the cron package using the following command:
+
+``` sudo apt install cron```
+
+
+
 #### To check if crontab is working
 ```
 sudo systemctl status cron
