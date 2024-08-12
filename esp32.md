@@ -15,8 +15,8 @@
   Tasmota Settings~
 In the Configuration -> Configure Module page assign:
 
-D2 GPIO4 to I2C SDA
-D1 GPIO5 to I2C SCL
+D4 GPIO4 to I2C SDA
+D5 GPIO5 to I2C SCL
 
 operating voltage range (2.15 to 5.5 V)
 
