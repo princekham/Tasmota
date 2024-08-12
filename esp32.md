@@ -18,6 +18,8 @@ In the Configuration -> Configure Module page assign:
 D2 GPIO4 to I2C SDA
 D1 GPIO5 to I2C SCL
 
+operating voltage range (2.15 to 5.5 V)
+
   ![image](https://github.com/user-attachments/assets/224be1b0-c4e7-4396-bccf-955b40f58a3d)
   https://tasmota.github.io/docs/_media/wemos_sht30_config_marked.jpg
 
