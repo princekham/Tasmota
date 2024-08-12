@@ -24,7 +24,8 @@ operating voltage range (2.15 to 5.5 V)
   https://tasmota.github.io/docs/_media/wemos_sht30_config_marked.jpg
 
 #### SHT30 Wire Connection
-- Red Wire:VCC
-- Black Wire：GND
-- White Wire：SDA
-- Yellow Wire：SCL
+- Red Wire:VCC (3.3V)
+- Black Wire：GND (GND)
+- White Wire：SDA (D2)
+- Yellow Wire：SCL (D1)
+Because it is I2C no resistors required when connecting to the microcontroller
