@@ -32,3 +32,24 @@ Because it is I2C no resistors required when connecting to the microcontroller
 
 ![image](https://github.com/user-attachments/assets/831f42c3-3241-401e-862d-2905f0414f83)
 https://lastminuteengineers.com/wp-content/uploads/iot/ESP32-Pinout.png
+
+### Steps 
+#### Tasmota
+- mqtt broker: mqtt.flespi.io
+- username: token no from Flespi
+- password: no password
+
+#### Flespi
+- create a token (master token)
+- create a device
+  - device name - as you wish 
+  - device identifier - tasmota topic name
+- create a channel
+  - Protocol Id - mqqt
+  - flespi MQTT broker - token no
+  - topic - use topic from Tasmota console
+  - JSON Payload
+    - Device Identification field - tasmota topic name
+    - parameter
+      - Temperature - SHT3X/Temperature
+      - etc, 
