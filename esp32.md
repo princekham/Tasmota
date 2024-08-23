@@ -30,6 +30,13 @@ operating voltage range (2.15 to 5.5 V)
 - Yellow Wire：SCL (GPIO5 - D5)
 Because it is I2C no resistors required when connecting to the microcontroller
 
+#### SHT30 Specs
+- Product Attribute	Attribute Value
+- Full Temp Accuracy:	+/- 0.3 C
+- Operating Supply Current:	800 uA
+- Supply Voltage - Min:	2.4 V
+- Supply Voltage - Max:	5.5 V
+
 ![image](https://github.com/user-attachments/assets/831f42c3-3241-401e-862d-2905f0414f83)
 https://lastminuteengineers.com/wp-content/uploads/iot/ESP32-Pinout.png
 
