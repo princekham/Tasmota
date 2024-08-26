@@ -4,7 +4,9 @@
 - 
 ### My Arduino File for connecting InfluxDB (with SHT31 Sensor)
 - I needed to install required library files before compiling
-'''
+  
+```
+
 #if defined(ESP32)
   #include <WiFiMulti.h>
   WiFiMulti wifiMulti;
@@ -124,6 +126,4 @@ ArtronShop_SHT3x sht3x(0x44, &Wire); // ADDR: 0 => 0x44, ADDR: 1 => 0x45
 
   }
 
-
-
-'''
+```
