@@ -20,6 +20,10 @@ ________________________________________________________________________________
 
 ``` sudo docker run --rm --name tasmocompiler -p 8080:3000 benzino77/tasmocompiler```
 
+or I can use use port 3000
+
+``` sudo docker run --rm --name tasmocompiler -p 3000:3000 benzino77/tasmocompiler```
+
 
 
   ![image](https://github.com/princekham/Tasmota/assets/16104631/61afe9a0-8f6f-4d2c-9fe6-8c5cbfee7c98)
