@@ -1,5 +1,6 @@
 ## Latest method (10/5/2014)
 - goto Gitpod (https://arendst-tasmota-q1eu6x7zswt.ws-us110.gitpod.io/)
+- if not ok go to https://gitpod.io/start/#arendst-tasmota-ngfc5w75hvh
 - And then goto tasmota and then to "user config override .h" file
 - နောက်ဆုံး endif ရှေ့မှာ ကိုယ့်ရဲ့ codes ကို ထည့်
 - then run ```platformio run -e tasmota ```
