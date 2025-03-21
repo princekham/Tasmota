@@ -15,7 +15,8 @@
   1. sudo docker pull benzino77/tasmocompiler
   2. I chose the following when compiling
  
-     ![image](https://github.com/user-attachments/assets/ac273ad2-6cb9-4b8f-8030-089118da1bfe)
+     ![image](https://github.com/user-attachments/assets/cf2c10dd-26cb-4be0-bd95-470e6184bc74)
+
 
   3. I added the following
      ```
