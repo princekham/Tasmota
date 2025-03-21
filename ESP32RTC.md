@@ -26,4 +26,4 @@
      #define USE_DS3231                  // [I2cDriver26] Enable DS3231 RTC (I2C address 0x68) (+1k2 code)
      #endif
      ```
-
+  4. I had to hold the boot button for 2 minutes while uploading using the web installer (https://tasmota.github.io/install/)
