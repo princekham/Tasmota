@@ -21,3 +21,7 @@ It operates on a 5V to 20V DC power supply, providing flexibility in power optio
   Rule1 on Switch1#state=1 do publish stat/%topic%/PIR1 ON endon on Switch1#state=0 do Publish stat/%topic%/PIR1 OFF endon Rule1 1
   ```
 
+- Because we use 'Switch1', so we use 'SwitchMode1' I think.
+- 'SwitchMode 1' is to follow the flow, i.e. '0 = Off' and '1= On'
+- 'SwitchTopic 0' will not publish MQTT message (default mode)
+  
