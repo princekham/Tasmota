@@ -7,4 +7,7 @@
 
 - It has Wide Operating Voltage:
 It operates on a 5V to 20V DC power supply, providing flexibility in power options.
-- I still need to check the output voltage of the sensor whether mine is output 3.3 V version 
+- I still need to check the output voltage of the sensor whether mine is output 3.3 V version. I found that to be as follow
+
+![image](https://github.com/user-attachments/assets/25c43248-fb59-44fe-829d-3f2c5796e2ec)
+
