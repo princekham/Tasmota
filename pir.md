@@ -13,12 +13,13 @@ It operates on a 5V to 20V DC power supply, providing flexibility in power optio
 
 
 - The above web site chose 'GPIO 13' as 'switch' . We can use 'SwitchMode 13' (Push to on) along with 'PulseTime' for the minimum on-period.
-- Or we can broadcast an MQTT message
+- Or we can broadcast an MQTT message. The message will switch on another Tasmota device switch with a name (******)
 
   ```
   SwitchMode1 1
   SwitchTopic 0
-  Rule1 on Switch1#state=1 do publish stat/%topic%/PIR1 ON endon on Switch1#state=0 do Publish stat/%topic%/PIR1 OFF endon Rule1 1
+  Rule1 on Switch1#State=1 Do publish cmnd/tasmota_******/POWER1 ON ENDON endon
+  Rule1 1
   ```
 
 - Because we use 'Switch1', so we use 'SwitchMode1' I think.
