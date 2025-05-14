@@ -3,6 +3,7 @@
 - connection type - I2C
 - D1 (GPIO5) - SCL
 - D2 (GPIO4) - SDA
+- I2C address - 0x3C (for 128x32)
 
 - ![image](https://github.com/user-attachments/assets/af5e3289-518c-4f51-9897-2c3571ebe481)
 
