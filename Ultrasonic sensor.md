@@ -10,6 +10,9 @@ Trigger - D6 (GPIO12),
 
 Vcc - Vin, (5 V)
 
+![image](https://github.com/user-attachments/assets/2cded1bb-132f-4ca2-9b14-a3d92349b3b8)
+
+
 - Note: This one needs a voltage divider (2.2K and 1.2K)
 
 ![image](https://github.com/princekham/Tasmota/assets/16104631/958be304-f546-4702-8f04-aee5e89b8b47)
