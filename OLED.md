@@ -10,5 +10,5 @@
 
 ![image](https://github.com/user-attachments/assets/5eea5598-30d4-401c-b200-b0c219255530)
 
-
-: SSD1306 0.91 OLED 128x32 :H,SSD1306_128x32,128,32,1,I2C,3c,*,*,* :S,0,2,1,0,10,10 :I AE D5,80 A8,1F D3,00 40 8D,14 20,00 A1 C8 DA,02 81,8F D9,F1 DB,40 A4 A6 AF :o,AE :O,AF :D,81 :A,00,10,40,00,00 :i,A6,A7 #
+- run the following command but do not enable it: I got it from (https://github.com/arendst/Tasmota/blob/development/tasmota/displaydesc/SSD1306_128x32_display.ini)
+`rule3 :H,SSD1306_128x32,128,32,1,I2C,3c,*,*,* :S,0,2,1,0,10,10 :I AE D5,80 A8,1F D3,00 40 8D,14 20,00 A1 C8 DA,02 81,8F D9,F1 DB,40 A4 A6 AF :o,AE :O,AF :D,81 :A,00,10,40,00,00 :i,A6,A7 #`
