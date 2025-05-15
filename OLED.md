@@ -25,8 +25,7 @@
 - Rule1 1
 
 - I modified the above rule to be
-- Rule1 ON SR04#Distance DO Publish cmnd/tasmota_1E6EDE/DisplayText [x10y20] %value% cm ENDON
-
+- Rule1 ON SR04#Distance DO Publish cmnd/tasmota_1E6EDE/DisplayText [x0y0] WaterLevel [x10y16]  %value% cm ENDON
 
 ### For the receiver
 - no need to configure
