@@ -10,7 +10,8 @@ Trigger - D6 (GPIO12),
 
 Vcc - Vin, (5 V)
 
-![image](https://github.com/user-attachments/assets/2cded1bb-132f-4ca2-9b14-a3d92349b3b8)
+![image](https://github.com/user-attachments/assets/41165a82-06ee-4076-8826-28f943d936f4)
+
 
 
 - Note: This one needs a voltage divider (2.2K and 1.2K)
