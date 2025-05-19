@@ -26,4 +26,7 @@
 
   ![image](https://github.com/user-attachments/assets/c23bc85a-4916-43c2-ba20-e962bea2ed16)
 
-    
+- And the following appeared on the home page.
+
+  ![image](https://github.com/user-attachments/assets/7e48ea61-6c56-4bb6-9528-a4f31665f410)
+
