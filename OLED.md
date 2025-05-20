@@ -36,7 +36,7 @@
 
 - Rule1 on SR04#Distance do var1=147-%value% endon On var1#state do Publish cmnd/tasmota_1E6EDE/DisplayText [x0y0] WaterLevel [x10y16] %value% endon
 
-- Rule1 on SR04#Distance do var1=(147-%value%)*0.0328 endon On var1#state do Publish cmnd/tasmota_1E6EDE/DisplayText [x0y0] WaterLevel [x6y16] %value% ft  endon
+- Rule1 on SR04#Distance do var1=(147-%value%)*0.0328 endon On var1#state do Publish cmnd/tasmota_1E6EDE/DisplayText [x0y0] WaterLevel [x10y16] %value%ft  endon
 
 - 
 ### For the receiver
