@@ -27,10 +27,13 @@
 - I modified the above rule to be
 - Rule1 ON SR04#Distance DO Publish cmnd/tasmota_1E6EDE/DisplayText [x0y0] WaterLevel [x10y16]  %value% cm ENDON
 ### Water Tank
-- The depth of the water tank - 58 cm
-- The water level (in feet) would be (58-sensor reading)*0.0328
+- The depth of the water tank - 58 in (147 cm)
+- The water level (in feet) would be (147-sensor reading)*0.0328
 - The above rule will be
-- - Rule1 ON SR04#Distance DO Publish cmnd/tasmota_1E6EDE/DisplayText [x0y0] WaterLevel [x10y16]  %(58-value)*0.0328% ft ENDON
+- 
+- Rule1 ON event#addvar do sub %value% 147 ENDON DO SR04#Distance Publish cmnd/tasmota_1E6EDE/DisplayText [x0y0] WaterLevel [x10y16] %value% cm ENDON
+- 
+- - Rule1 ON SR04#Distance DO Publish cmnd/tasmota_1E6EDE/DisplayText [x0y0] WaterLevel [x10y16]  %(147-value)*0.0328% ft ENDON
 
 - 
 ### For the receiver
