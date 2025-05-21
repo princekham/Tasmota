@@ -61,4 +61,5 @@
   - mqtt broker: mqtt.flespi.io
   - port : 8883
   - username: token no from Flespi
-  - password: no password 
+  - password: no password
+  - can adjust the MQTT publish period by 'TelePeriod '
