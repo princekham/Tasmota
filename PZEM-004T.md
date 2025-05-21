@@ -44,16 +44,19 @@
     - choose device type - MQTT
     - device name - as you wish
   - device identifier - tasmota topic name
-      - create a channel (which is under 'Telematics Hub')
+  - create a channel (which is under 'Telematics Hub')
         - Protocol Id - mqqt
         - flespi MQTT broker - token no
         - topic - use topic from Tasmota console
       - JSON Payload
         - Device Identification field - tasmota topic name
+        - JSON message path was left unchecked
         - parameter
-          - Temperature - SHT3X/Temperature
+          - Temperature
+            - Parameter value path : SHT3X/Temperature
           - etc,
   ### From Tasmota device
   - mqtt broker: mqtt.flespi.io
+  - port : 8883
   - username: token no from Flespi
   - password: no password 
