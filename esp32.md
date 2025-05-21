@@ -48,10 +48,10 @@ https://lastminuteengineers.com/wp-content/uploads/iot/ESP32-Pinout.png
 
 #### Flespi
 - create a token (master token)
-- create a device
+- create a device (which is under 'Telematics Hub')
   - device name - as you wish 
   - device identifier - tasmota topic name
-- create a channel
+- create a channel (which is under 'Telematics Hub')
   - Protocol Id - mqqt
   - flespi MQTT broker - token no
   - topic - use topic from Tasmota console
