@@ -40,14 +40,14 @@
 
   ### From Flespi
   - create a token (master token)
-  - create a device
+  - create a device (which is under 'Telematics Hub')
     - choose device type - MQTT
     - device name - as you wish
   - device identifier - tasmota topic name
-      - create a channel
-      - Protocol Id - mqqt
-      - flespi MQTT broker - token no
-      - topic - use topic from Tasmota console
+      - create a channel (which is under 'Telematics Hub')
+        - Protocol Id - mqqt
+        - flespi MQTT broker - token no
+        - topic - use topic from Tasmota console
       - JSON Payload
         - Device Identification field - tasmota topic name
         - parameter
