@@ -63,3 +63,14 @@
   - username: token no from Flespi
   - password: no password
   - can adjust the MQTT publish period by 'TelePeriod '
+ 
+  ### Connecting with InfluxDB
+  - Tasmota can directly connect to InfluxDB; (https://tasmota.github.io/docs/Commands/#domoticz)
+  - Example command is
+ 
+    ``` backlog ifxhost https://eu-central-1-1.aws.cloud2.influxdata.com; ifxport 443; ifxorg *******; ifxbucket tasmota; ifxtoken *****```
+
+    - and I needed to set
+    - ifx 1
+    - IfxSensor 1
+    - 
