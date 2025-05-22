@@ -74,3 +74,8 @@
     - ifx 1
     - IfxSensor 1
     - 
+  ### Connecting with Graffana
+  - Choose the Datasource - InfluxDB and enter information
+  - In the influxDB, choose the parameter that you want to display and run the query
+  - becuase the query is in InfluxQL, you will have to convert it to Flux using DeepSeek
+  - Enter the flux scripts in Graffana for visualization 
