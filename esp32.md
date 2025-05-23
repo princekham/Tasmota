@@ -59,4 +59,7 @@ https://lastminuteengineers.com/wp-content/uploads/iot/ESP32-Pinout.png
     - Device Identification field - tasmota topic name
     - parameter
       - Temperature - SHT3X/Temperature
-      - etc, 
+      - etc,
+        
+  ![image](https://github.com/user-attachments/assets/82504be1-19ff-43f9-a096-65eb2535274d)
+
