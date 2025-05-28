@@ -35,7 +35,7 @@
 - GPIO14	CAM_DATA 3 // Change to GPIO12
 - GPIO13	CAM_DATA 2 // Change to GPIO33
 - GPIO12	CAM_DATA 1 // Change to GPIO32
-- 
+- GPIO19	CAM_PWDN
 
 - The following pin connection was suggested by DeepSeek
 
