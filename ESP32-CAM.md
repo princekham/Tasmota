@@ -5,6 +5,7 @@
 - I think I need to connect based on this (https://templates.blakadder.com/ai-thinker_ESP32-CAM.html)
 
 - GPIO00	CAM_XCLK
+- GPIO05 CAM_DATA 1
 - GPIO18	CAM_DATA 2
 - GPIO19	CAM_DATA 3
 - GPIO21	CAM_DATA 4
