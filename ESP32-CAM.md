@@ -18,6 +18,22 @@
 - GPIO35	CAM_DATA 8
 - GPIO36	CAM_DATA 5
 - GPIO39	CAM_DATA 6
+
+- I tried to change some pins and the following is my pin connections
+- GPIO27	CAM_SIOC
+- GPIO26	CAM_SIOD
+- GPIO25	CAM_VSYNC
+- GPIO23	CAM_HREF
+- GPIO22	CAM_PCLK
+- GPIO04	CAM_XCLK
+- GPIO34	CAM_DATA 7
+- GPIO18	CAM_DATA 6
+- GPIO17	CAM_DATA 5
+- GPIO16	CAM_DATA 4
+- GPIO15	CAM_DATA 3
+- GPIO14	CAM_DATA 2
+- GPIO13	CAM_DATA 1
+- GPIO12	CAM_DATA 0
 - 
 
 - The following pin connection was suggested by DeepSeek
