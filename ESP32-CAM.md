@@ -21,6 +21,8 @@
 - GPIO39	CAM_DATA 6
 
 - I tried to change some pins and the following is my pin connections
+- {"NAME":"MY ESP32-CAM","GPIO":[1,1,1,1,4992,1,1,1,5090,5091,5092,5093,1,1,5094,4928,0,5024,5056,5152,0,5120,4960,4992,0,0,0,0,5088,5089,5095,1,1,0,0,1],"FLAG":0,"BASE":1}
+- 
 - GPIO22	CAM_SIOC 
 - GPIO21	CAM_SIOD 
 - GPIO25	CAM_VSYNC
