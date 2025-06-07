@@ -1,5 +1,11 @@
 ## PZEM-004T Multimeter Module
 
+### Rule to reset Total energy at 1AM on the first day of the month 
+
+```
+Rule1 on Time#Local|-01 do backlog EnergyReset 0 endon
+Rule1 1
+```
 
 
 ### Hardware Configuration
