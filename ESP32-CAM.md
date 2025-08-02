@@ -43,3 +43,8 @@
 - The following pin connection was suggested by DeepSeek
 
 ![image](https://github.com/user-attachments/assets/118a0737-0da5-43bf-a9ad-a9e9006e4c0b)
+
+### Using the web cam
+-  the MJPEG stream URL (e.g., http://<ESP32-CAM_IP_ADDRESS>:81/stream).
+-  You can find the snapshot URL (e.g., http://<ESP32-CAM_IP_ADDRESS>/wc.jpg or snapshot.jpg)
+-  
