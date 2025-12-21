@@ -37,5 +37,8 @@
 
 - Rule1 on SR04#Distance do var1=(154-%value%)*0.0328 endon On var1#state do Publish cmnd/tasmota_1E6EDE/DisplayText [x0y0] WaterLevel [x10y16] %value% ft  endon
 
+#### For the phone mqtt app
+- Rule2 on SR04#Distance do var1=(154-%value%)*0.0328 endon On var1#state do Publish cmnd/tasmota_MQTT/%value% ft  endon
+
 ### For the receiver
 - no need to configure
