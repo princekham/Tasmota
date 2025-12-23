@@ -1,3 +1,5 @@
+# Firmware
+- the firmware must be -displays.bin
 # Oled
 - model -SSD1306 OLED display
 - connection type - I2C
