@@ -36,7 +36,10 @@
 - Rule1 on SR04#Distance do var1=154-%value% endon On var1#state do Publish cmnd/tasmota_1E6EDE/DisplayText [x0y0] WaterLevel [x10y16] %value% endon
 
 - Rule1 on SR04#Distance do var1=(154-%value%)*0.0328 endon On var1#state do Publish cmnd/tasmota_1E6EDE/DisplayText [x0y0] WaterLevel [x10y16] %value% ft  endon
-
+#### For the 2nd OLED
+- Rule2 on SR04#Distance do var1=(154-%value%)*0.0328 endon On var1#state do Publish cmnd/cmnd/tasmota_0FE20A/DisplayText [x0y0] WaterLevel [x10y16] %value% ft  endon
+- Rule2 1
+  
 #### For the phone mqtt app
 - Rule2 on SR04#Distance do var2=(154-%value%)*0.0328 endon On var2#state do Publish stat/tasmota_E27FBB/WaterLevel %value% ft endon
 
