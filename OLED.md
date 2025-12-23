@@ -10,7 +10,8 @@
 - ![image](https://github.com/user-attachments/assets/af5e3289-518c-4f51-9897-2c3571ebe481)
 
 
-![image](https://github.com/user-attachments/assets/5eea5598-30d4-401c-b200-b0c219255530)
+- <img width="806" height="1409" alt="image" src="https://github.com/user-attachments/assets/cdfaee78-ed20-4383-afd4-b647645c22f4" />
+
 
 - run the following command but do not enable it: I got it from (https://github.com/arendst/Tasmota/blob/development/tasmota/displaydesc/SSD1306_128x32_display.ini)
   
