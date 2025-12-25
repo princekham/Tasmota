@@ -40,5 +40,25 @@ RgxPort tcp,8080,192.168.2.100,80
 ```
 - ip က Tasmota ရဲ့ ip
 - 192.168.2.100 ဆိုရင် range extender ကို ရောက်မယ် 192.168.2.100:8080 ဆိုရင် tasmota device ကို ရောက်မယ်။
+- Tasmota Device ကိုတော့ static ip address ပေးထားရမယ်
 
+  ```
+  ipaddress1 192.168.2.100
+  ```
+  - Port forwarding အတွက် rule လုပ်ထားပေးရမယ်။ restart လုပ်ရင် RgxPort command က ပျောက်သွား
+
+```
+  rule1 on system#boot do RgxPort tcp,8080,192.168.2.100,80 endon
+  rule1 ON
+```
+- custom compile မလုပ်ဘူးဆိုရင် အောက်က လိုင်းကို ရိုက်ထည့်ပေးရမယ်။
+
+- ```
+  RgxSSID Hust24K
+  RgxPassword 12345678
+  RgxAddress 192.168.2.1
+  RgxSubnet 255.255.255.0
+  RgxState ON
+  RgxNAPT ON
+```
   
