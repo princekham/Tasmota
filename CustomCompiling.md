@@ -1,13 +1,13 @@
 ## Latest method (10/5/2014)
+### It seems Gitpos is not working anymore
 - goto Gitpod (https://arendst-tasmota-q1eu6x7zswt.ws-us110.gitpod.io/)
 - if not ok go to https://gitpod.io/start/#arendst-tasmota-ngfc5w75hvh
 - And then goto tasmota and then to "user config override .h" file
 - နောက်ဆုံး endif ရှေ့မှာ ကိုယ့်ရဲ့ codes ကို ထည့်
 - then run ```platformio run -e tasmota ```
 - Then go to buildoutput -> firmware -> use the bin version
-
-
 ______________________________________________________________________________________
+### The last time I compiled was by using docker I think
 
 - I use https://github.com/benzino77/tasmocompiler 
 - I set up on my server from above website
