@@ -22,6 +22,8 @@
 #define WIFI_RGX_SUBNETMASK "255.255.255.0"
 #define WIFI_RGX_STATE 1
 #define WIFI_RGX_NAPT 1
+
+#define USE_TELEGRAM
 ```
 
 - compile ပြီးရင် web installer ကနေ သွင်း
