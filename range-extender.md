@@ -16,14 +16,18 @@
 - Range extender settings (Range extender လွင့်မယ့် ဝိုင်ဖိုင် နဲ့ အိုင်ပီ လိပ်စာ)
 
 ```
-#define WIFI_RGX_SSID "Hust24K"
-#define WIFI_RGX_PASSWORD "12345678"
+#define USE_WIFI_RANGE_EXTENDER
+#define USE_WIFI_RANGE_EXTENDER_NAPT
+#define USE_TELEGRAM
+
+#define WIFI_RGX_SSID "Extender"
+#define WIFI_RGX_PASSWORD "1Qaz2Wsx"
 #define WIFI_RGX_IP_ADDRESS "192.168.2.1"
 #define WIFI_RGX_SUBNETMASK "255.255.255.0"
 #define WIFI_RGX_STATE 1
 #define WIFI_RGX_NAPT 1
 
-#define USE_TELEGRAM
+
 ```
 - From the web site (https://tasmota.github.io/docs/Range-Extender/#routing-not-napt), for ESP32
 ```
