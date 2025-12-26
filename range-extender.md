@@ -25,7 +25,7 @@
 
 #define USE_TELEGRAM
 ```
-- From the web site, for ESP32
+- From the web site (https://tasmota.github.io/docs/Range-Extender/#routing-not-napt), for ESP32
 ```
 #ifndef USE_WIFI_RANGE_EXTENDER
 #define USE_WIFI_RANGE_EXTENDER
