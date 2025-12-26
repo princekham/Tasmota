@@ -1,4 +1,5 @@
 ## Latest method (10/5/2014)
+- compile from (http://tqh5597.synology.me:3000/)
 ### It seems Gitpos is not working anymore
 - goto Gitpod (https://arendst-tasmota-q1eu6x7zswt.ws-us110.gitpod.io/)
 - if not ok go to https://gitpod.io/start/#arendst-tasmota-ngfc5w75hvh
