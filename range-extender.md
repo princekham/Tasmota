@@ -25,6 +25,31 @@
 
 #define USE_TELEGRAM
 ```
+- From the web site, for ESP32
+```
+#ifndef USE_WIFI_RANGE_EXTENDER
+#define USE_WIFI_RANGE_EXTENDER
+#endif
+// Optionally, to enable NAT/NAPT
+#ifndef USE_WIFI_RANGE_EXTENDER_NAPT
+#undef USE_WIFI_RANGE_EXTENDER_NAPT
+#endif
+
+#define WIFI_RGX_SSID "Hust24K"
+#define WIFI_RGX_PASSWORD "12345678"
+#define WIFI_RGX_IP_ADDRESS "192.168.2.1"
+#define WIFI_RGX_SUBNETMASK "255.255.255.0"
+#define WIFI_RGX_STATE 1
+#define WIFI_RGX_NAPT 1
+
+```
+- From the web site, for ESP8266
+
+```
+
+
+
+
 
 - compile ပြီးရင် web installer ကနေ သွင်း
 - အဆင်ပြေမပြေကို RgxSSid နဲ့ ရိုက်ထည့်ပြီး စစ်နိုင်
