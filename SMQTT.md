@@ -1,4 +1,71 @@
 # SMQTT SERVER
+
+## How to set a fixed IP address
+- To set a static IP address, you use the WiFi.config() function before calling WiFi.begin(). 
+- Here is a basic example sketch demonstrating the configuration:
+
+```
+#include <WiFi.h>
+
+// Network credentials
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
+
+// Static IP configuration
+IPAddress local_IP(192, 168, 100, 131); // Desired static IP
+IPAddress gateway(192, 168, 100, 1);    // Router IP address
+IPAddress subnet(255, 255, 255, 0);   // Subnet mask
+// Optional: DNS servers (e.g., Google DNS)
+IPAddress primaryDNS(8, 8, 8, 8);   
+IPAddress secondaryDNS(8, 8, 4, 4); 
+
+void setup() {
+    Serial.begin(115200);
+    Serial.println();
+
+    // Configure the static IP address, gateway, subnet mask, and DNS
+    if(!WiFi.config(local_IP, gateway, subnet, primaryDNS, secondaryDNS)){
+        Serial.println("STA Failed to configure");
+    }
+
+    // Connect to Wi-Fi network
+    Serial.print("Connecting to ");
+    Serial.println(ssid);
+    WiFi.begin(ssid, password);
+
+    while (WiFi.status() != WL_CONNECTED) {
+        delay(500);
+        Serial.print(".");
+    }
+
+    Serial.println("");
+    Serial.println("WiFi connected.");
+    Serial.println("IP address: ");
+    // Print the assigned IP address (should match local_IP)
+    Serial.println(WiFi.localIP()); 
+}
+
+void loop() {
+    // Your main code here
+}
+```
+
+### How to Omit DNS
+- The WiFi.config() function is structured so that you only provide the parameters you need. If you only provide three values, the ESP32 knows they are the Local IP, Gateway, and Subnet. 
+- Correct usage without DNS:
+
+  ```
+IPAddress local_IP(192, 168, 1, 184);
+IPAddress gateway(192, 168, 1, 1);
+IPAddress subnet(255, 255, 255, 0);
+
+void setup() {
+  // Omit DNS entirely from the call
+  WiFi.config(local_IP, gateway, subnet); 
+  WiFi.begin(ssid, password);
+}
+  ```
+
 - ဒီမှာက ap mode ပါတာနဲ့ မပါတာဆိုပြီး ရှိမယ်။ (source: https://www.youtube.com/watch?v=ji_nfVEI25g)
 - 
 - <img width="2493" height="1294" alt="image" src="https://github.com/user-attachments/assets/31184db9-2a9f-4906-b273-64047e4ab40f" />
