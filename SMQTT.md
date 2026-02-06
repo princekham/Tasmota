@@ -54,9 +54,9 @@ void loop() {
 - The WiFi.config() function is structured so that you only provide the parameters you need. If you only provide three values, the ESP32 knows they are the Local IP, Gateway, and Subnet. 
 - Correct usage without DNS:
 
-  ```
-IPAddress local_IP(192, 168, 1, 184);
-IPAddress gateway(192, 168, 1, 1);
+```
+IPAddress local_IP(192, 168, 100, 130);
+IPAddress gateway(192, 168, 100, 1);
 IPAddress subnet(255, 255, 255, 0);
 
 void setup() {
@@ -64,7 +64,7 @@ void setup() {
   WiFi.config(local_IP, gateway, subnet); 
   WiFi.begin(ssid, password);
 }
-  ```
+```
 
 - ဒီမှာက ap mode ပါတာနဲ့ မပါတာဆိုပြီး ရှိမယ်။ (source: https://www.youtube.com/watch?v=ji_nfVEI25g)
 - 
