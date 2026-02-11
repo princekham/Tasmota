@@ -214,3 +214,55 @@ void loop()
 
 ```
 
+# PicoMQTT
+- I was not ok with SMQTT so I tried PicoMQTT with the codes below
+  
+```
+#include <Arduino.h>
+#include <WiFi.h> // Use ESP8266WiFi.h for ESP8266
+#include <PicoMQTT.h>
+
+// WiFi credentials
+const char* ssid = "your_ssid";
+const char* password = "your_password";
+
+
+IPAddress local_IP(192, 168, 100, 130);
+IPAddress gateway(192, 168, 100, 1);
+IPAddress subnet(255, 255, 255, 0);
+
+// Create a MQTT broker instance
+PicoMQTT::Server mqtt;
+
+void setup() {
+    Serial.begin(115200);
+
+    // Connect to WiFi
+    WiFi.mode(WIFI_STA);
+    WiFi.config(local_IP, gateway, subnet); 
+
+    WiFi.begin(ssid, password);
+    while (WiFi.status() != WL_CONNECTED) {
+        delay(500);
+        Serial.print(".");
+    }
+    Serial.println("\nWiFi connected");
+    Serial.print("Broker IP: ");
+    Serial.println(WiFi.localIP());
+
+    // Subscribe to a topic pattern and set callback
+    mqtt.subscribe("#", [](const char * topic, const char * payload) {
+        Serial.printf("Broker Received: %s -> %s\n", topic, payload);
+    });
+
+    // Start the broker
+    mqtt.begin();
+}
+
+void loop() {
+    // Keep the broker running
+    mqtt.loop();
+}
+```
+
+
