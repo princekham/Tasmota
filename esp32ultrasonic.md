@@ -11,4 +11,12 @@
 ### With Lora
 - I will try the following with Lora
 
-  <img width="953" height="1487" alt="image" src="https://github.com/user-attachments/assets/f6f7d506-0d34-42c4-832f-e4cd2d495172" />
+- LoRa VCC -> ESP32 3V3
+- LoRa GND -> ESP32 GND
+- LoRa MISO -> ESP32 GPIO 19
+- LoRa MOSI -> ESP32 GPIO 23
+- LoRa SCK -> ESP32 GPIO 18
+- LoRa NSS -> ESP32 GPIO 5 (CS)
+- LoRa DIO0 -> ESP32 GPIO 26 (Interrupt)
+- LoRa RST -> ESP32 GPIO 14 (Reset)
+
