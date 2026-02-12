@@ -20,3 +20,4 @@
 - LoRa DIO0 -> ESP32 GPIO 26 (Interrupt)
 - LoRa RST -> ESP32 GPIO 14 (Reset)
 
+<img width="971" height="1482" alt="image" src="https://github.com/user-attachments/assets/4087e9c9-0323-446d-a87a-c4e63a4b3df7" />
