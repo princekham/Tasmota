@@ -7,7 +7,8 @@
 
 ![photo_2026-02-03_14-06-46](https://github.com/user-attachments/assets/d51fbac9-5835-4306-9377-63a8de74ae1f)
 
-![image](https://user-images.githubusercontent.com/16104631/200354673-5c4d0114-e3ee-41ad-9bbf-06a5f9adaa65.png)
+<img width="727" height="508" alt="image" src="https://github.com/user-attachments/assets/fa655207-1eb0-4844-ba90-561faa8ccc59" />
+
 
 - LoRa VCC -> ESP32 3V3
 - LoRa GND -> ESP32 GND
