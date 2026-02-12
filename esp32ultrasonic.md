@@ -7,3 +7,8 @@
 
 
   ![image](https://github.com/user-attachments/assets/1b778872-5ec0-4f82-b117-4964feb102c5)
+
+### With Lora
+- I will try the following with Lora
+
+  <img width="953" height="1487" alt="image" src="https://github.com/user-attachments/assets/f6f7d506-0d34-42c4-832f-e4cd2d495172" />
