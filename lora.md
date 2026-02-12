@@ -7,14 +7,16 @@
 
 ![photo_2026-02-03_14-06-46](https://github.com/user-attachments/assets/d51fbac9-5835-4306-9377-63a8de74ae1f)
 
-LoRa VCC -> ESP32 3V3
-LoRa GND -> ESP32 GND
-LoRa MISO -> ESP32 GPIO 19
-LoRa MOSI -> ESP32 GPIO 23
-LoRa SCK -> ESP32 GPIO 18
-LoRa NSS -> ESP32 GPIO 5 (CS)
-LoRa DIO0 -> ESP32 GPIO 26 (Interrupt)
-LoRa RST -> ESP32 GPIO 14 (Reset)
+https://user-images.githubusercontent.com/16104631/200354673-5c4d0114-e3ee-41ad-9bbf-06a5f9adaa65.png
+
+- LoRa VCC -> ESP32 3V3
+- LoRa GND -> ESP32 GND
+- LoRa MISO -> ESP32 GPIO 19
+- LoRa MOSI -> ESP32 GPIO 23
+- LoRa SCK -> ESP32 GPIO 18
+- LoRa NSS -> ESP32 GPIO 5 (CS)
+- LoRa DIO0 -> ESP32 GPIO 26 (Interrupt)
+- LoRa RST -> ESP32 GPIO 14 (Reset)
 
 ### Flashing Tasmota
 - Use the Tasmota web installer or a similar tool to flash tasmota32.bin onto your ESP32.
