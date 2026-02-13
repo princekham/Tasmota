@@ -36,8 +36,17 @@
 - Click Save. The device will reboot. 
 ### Verification
 - Go to the Console and check if the driver initialized correctly. You should see LOR: SX127x initialized or similar confirmation.
-### Usage
+## Usage
 - Use console commands to send data:
-LoRaSend <payload>: Sends a payload.
-LoRaCommand <command>: Sends a specific LoRa command. 
-Note: Ensure your Tasmota version supports LoRa, as it is included in tasmota32 binaries
+- LoRaSend <payload>: Sends a payload.
+- LoRaCommand <command>: Sends a specific LoRa command.
+- lorawanbridge must be disabled
+- Note: Ensure your Tasmota version supports LoRa, as it is included in tasmota32 binaries
+ 
+### Sending Sensor Data with a Rule
+
+```
+Rule1 ON SR04#Distance DO LoRaSend %value% ENDON
+Rule1 1
+```
+- SR04 is the sensor name.
