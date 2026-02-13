@@ -52,5 +52,6 @@ Rule1 1
 - SR04 is the sensor name.
 - It looks like Tasmota is receceiving Lora message as an MQTT Message
 - And for MQTT Dash to receive the message, I use the following config
-  <img width="400" height="889" alt="image" src="https://github.com/user-attachments/assets/f544ce42-86e9-481b-8cc0-4d8511efafef" />
+
+<img width="781" height="866" alt="image" src="https://github.com/user-attachments/assets/3335de2f-eb53-41d6-b90b-6de399a8ddad" />
 
