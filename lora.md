@@ -50,3 +50,7 @@ Rule1 ON SR04#Distance DO LoRaSend %value% ENDON
 Rule1 1
 ```
 - SR04 is the sensor name.
+- It looks like Tasmota is receceiving Lora message as an MQTT Message
+- And for MQTT Dash to receive the message, I use the following config
+  <img width="400" height="889" alt="image" src="https://github.com/user-attachments/assets/f544ce42-86e9-481b-8cc0-4d8511efafef" />
+
