@@ -19,6 +19,10 @@
 - LoRa DIO0 -> ESP32 GPIO 26 (Interrupt)
 - LoRa RST -> ESP32 GPIO 14 (Reset)
 
+### Antenna Connection
+<img width="895" height="402" alt="image" src="https://github.com/user-attachments/assets/c42d8981-99dc-481e-8a99-8f7e7a9a7e7f" />
+
+
 ### Flashing Tasmota
 - Use the Tasmota web installer or a similar tool to flash tasmota32.bin onto your ESP32.
 
