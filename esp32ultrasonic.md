@@ -30,3 +30,10 @@
 ```
 Loraconfig {"Frequency":433.0,"Bandwidth":125.0}
 ```
+### setting Spreading Factor and Output Power
+- the Spreading Factor (SF7–SF12) determines the speed, range, and time-on-air by controlling how many chirps represent a data symbol, with higher SFs (e.g., 12) offering longer range but lower data rates. 
+- Output Power (TX Power) represents the transmit strength, dictating how far the signal travels, typically regulated up to 14 dBm in many regions. 
+
+```
+Loraconfig {"SpreadingFactor":12, "OutputPower":17}
+```
