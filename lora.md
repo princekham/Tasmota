@@ -90,6 +90,7 @@ Rule1 ON SR04#Distance DO Var1 %value% ENDON
 ```
 ```
 Rule1 
-  ON System#Init DO RuleTimer2 10 ENDON 
-  ON Rules#Timer=2 DO Backlog LoRaSend %SR04#Distance%; RuleTimer2 10 ENDON
+  ON System#Init DO RuleTimer1 10 ENDON 
+  ON Rules#Timer=1 DO Backlog LoRaSend %SR04#Distance%; RuleTimer1 10 ENDON
 ```
+- အပေါ်် က codes မှာ SR04#Distane နေရာမှာ တန်းဖိုး ပြောင်းသွားရင် ရပြီ
