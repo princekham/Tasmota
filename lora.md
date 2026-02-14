@@ -53,5 +53,43 @@ Rule1 1
 - It looks like Tasmota is receceiving Lora message as an MQTT Message
 - And for MQTT Dash to receive the message, I use the following config
 
+
 <img width="781" height="866" alt="image" src="https://github.com/user-attachments/assets/3335de2f-eb53-41d6-b90b-6de399a8ddad" />
 
+### To disable WiFi
+- WiFi ကိုို ချိတ်မရရင် ထပ်ခါတစ်လဲလဲ ရှာနေတတ်လို့၊ အဲဒီလို မဖြစ်အောင်
+
+```
+WifiConfig 5
+```
+
+- ဒီအနေအထားမှာ ပထမ အနေနဲ့ WiFi ရှာမတွေ့ရင် reboot လုပ်နေတော့မှာ မဟုတ်ဘူး။ ဒါမယ့် WiFi ပြြန်တက် တဲ့ အထိစောင့်မှာ။
+- ဒါမှမဟုတ် WiFi ကို လုံးဝ ပိတ်ပစ်ချင်ရင် အောက်က Rule ကို သုံးမယ်။ မစမ်းရသေးပါ
+
+```
+Rule1 ON System#Boot DO Backlog WiFi 1; Delay 300; WiFi 0 ENDON
+
+```
+### Sending data without WiFi network
+- teleperiod depends on WiFi or WAN; the rule works after reboot.
+
+```
+Rule1 
+  ON System#Init DO RuleTimer1 10 ENDON 
+  ON Rules#Timer=1 DO Backlog LoRaSend %SENSOR%; RuleTimer1 10 ENDON
+```
+```
+Rule1 ON System#Init DO RuleTimer2 10 ENDON ON Rules#Timer=2 DO Backlog LoRaSend %SR04#Distance%; RuleTimer2 10 ENDON
+```
+- The below rule works but have to test it wihouth the internet or WiFi.
+
+```
+Rule1 ON SR04#Distance DO Var1 %value% ENDON
+  ON System#Init DO RuleTimer2 10 ENDON 
+  ON Rules#Timer=1 DO Backlog LoRaSend %Var1%; RuleTimer2 10 ENDON
+```
+```
+Rule1 
+  ON System#Init DO RuleTimer2 10 ENDON 
+  ON Rules#Timer=2 DO Backlog LoRaSend %SR04#Distance%; RuleTimer2 10 ENDON
+```
