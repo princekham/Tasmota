@@ -37,3 +37,5 @@ Loraconfig {"Frequency":433.0,"Bandwidth":125.0}
 ```
 Loraconfig {"SpreadingFactor":12, "OutputPower":17}
 ```
+### Improving Power Supply
+- I added 22 μf capacitor across the lora power supply pins
