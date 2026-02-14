@@ -20,4 +20,13 @@
 - LoRa DIO0 -> ESP32 GPIO 26 (Interrupt)
 - LoRa RST -> ESP32 GPIO 14 (Reset)
 
+### Template
+- {"NAME":"ESP32-DevKit","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}
+
 <img width="971" height="1482" alt="image" src="https://github.com/user-attachments/assets/4087e9c9-0323-446d-a87a-c4e63a4b3df7" />
+
+### setting Frequency and Bandwidth
+
+```
+Loraconfig {"Frequency":433.0,"Bandwidth":125.0}
+```
