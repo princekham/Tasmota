@@ -39,3 +39,6 @@ Loraconfig {"SpreadingFactor":12, "OutputPower":17}
 ```
 ### Improving Power Supply
 - I added 22 μf capacitor across the lora power supply pins
+- And I am going to add seperate power supply to the Lora device for more stability
+
+  <img width="600" height="421" alt="image" src="https://github.com/user-attachments/assets/f23facac-c6cb-4461-8b5a-b95c4afd95cd" />
