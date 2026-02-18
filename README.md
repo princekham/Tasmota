@@ -73,3 +73,19 @@ Tasmota Client
 - Custom Build - platformio run -e tasmota (at gitpodio)
 - then go to buildoutput
 - under firmirmware, download tasmota.bin file
+
+## ESPtool
+- For ESP32, use ESPtool for uploading firmware
+  
+<img width="1311" height="640" alt="image" src="https://github.com/user-attachments/assets/e2a70c98-83a4-4476-a844-8f5a22f67e41" />
+
+- Erase first with the COM port you are connected
+
+```
+python -m esptool --port COM3 erase_flash
+```
+- then write
+
+```
+python -m esptool --chip esp32 --port COM3 --baud 460800 write_flash -z 0x0 tasmota32-display.bin
+```
