@@ -87,5 +87,5 @@ python -m esptool --port COM3 erase_flash
 - then write
 
 ```
-python -m esptool --chip esp32 --port COM3 --baud 460800 write_flash -z 0x0 tasmota32-display.bin
+python -m esptool --chip esp32 --port COM3 --baud 460800 write_flash -z 0x1000 tasmota32-display.bin
 ```
