@@ -85,6 +85,11 @@ Tasmota Client
 python -m esptool --port COM3 erase_flash
 ```
 - cd to the firmware folder, then write
+- For the first time factory bin file should be used
+  
+<img width="1089" height="866" alt="image" src="https://github.com/user-attachments/assets/6932f518-c110-4595-9f13-1b6a8dd26e39" />
+
+  
 ```
-python -m esptool --chip esp32 --port COM3 --baud 115200 write_flash -z 0x0 tasmota32-display.bin
+python -m esptool --chip esp32 --port COM3 --baud 115200 write_flash -z 0x0 tasmota32-display.factory.bin
 ```
