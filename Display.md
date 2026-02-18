@@ -49,3 +49,20 @@
 
 ### For the receiver
 - no need to configure
+
+## 16x2 LCD Display
+### Wire Connection
+
+<img width="1553" height="671" alt="image" src="https://github.com/user-attachments/assets/df70c7d6-d339-459e-ad34-e4113db9c0b6" />
+
+### Configuration
+
+<img width="1353" height="551" alt="image" src="https://github.com/user-attachments/assets/97d7fb60-5557-4946-8f5d-20aefbbd3bd9" />
+
+<img width="1485" height="363" alt="image" src="https://github.com/user-attachments/assets/e6fe0a82-1153-4bc0-b035-7118698dc6a2" />
+
+### Displaying Data (Commands)
+- Displaytext1 Hello World: Displays text on line 1.
+- Displaytext2 Tasmota: Displays text on line 2.
+- DisplayText [z]: Clears the display.
+- DisplayText [c]: Turns off the cursor.
