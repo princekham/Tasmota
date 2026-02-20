@@ -65,4 +65,11 @@
 - Displaytext1 Hello World: Displays text on line 1.
 - Displaytext2 Tasmota: Displays text on line 2.
 - DisplayText [z]: Clears the display.
-- DisplayText [c]: Turns off the cursor.
+- DisplayText [c]: Turns off the cursor.\
+- DisplayText [l1c1]
+
+### For receiving data
+- Rule2 on SR04#Distance do var3=(154-%value%)*0.0328 endon On var3#state do Publish cmnd/tasmota_12A214/DisplayText [l1c1] WaterLevel [l2c1] %value% ft endon
+- Rule2 1
+
+
