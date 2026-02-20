@@ -88,3 +88,16 @@
   cmnd/tasmota_12A214/DisplayText [l1c1] WaterLevel [l2c1] 5 ft
   ```
 
+  #### Subscription command seems not working; so I will focus on publishing from the sender
+
+  Rule1 ON SR04#Distance DO LoRaCommand display_unit DisplayText [z][x0y0]Water Level: %value% cm ENDON
+
+  Rule1 on mqtt#connected do backlog Subscribe distance_update, tele/tasmota_107EC8/RESULT ,LoRaReceived Rule1 1
+
+  Rule1 on mqtt#connected do backlog Subscribe dis_update,tele/tasmota_107EC8/RESULT,temperature; Rule1 1 endon on event#dis_update do DisplayText [l1c1] WaterLevel [l2c1] 6 ft endon
+
+  Subscribe MyResult, tele/tasmota_107EC8/RESULT/LoRaReceived
+
+
+  
+
