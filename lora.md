@@ -81,3 +81,8 @@ ON SR04#Distance DO Var1 %value% ENDON
   ON System#Init DO RuleTimer1 10 ENDON 
   ON Rules#Timer=1 DO Backlog LoRaSend %Var1%; RuleTimer1 10 ENDON
 ```
+### Lora Command အား အသုံးပြုခြင်း
+- LoRaOption4 1: enable reception of LoRaCommand commands. No security, anyone in range can send any command.
+- LoRaCommand <topic_of_lora_receiver> <command>: send command to device with MQTT topic.
+- <topic_of_lora_receiver>: it often looks like tasmota_XXXXXX
+- <command>: Any standard Tasmota command (e.g., Power1 1, Status 0, Restart 1)
