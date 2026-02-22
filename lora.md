@@ -81,6 +81,28 @@ ON SR04#Distance DO Var1 %value% ENDON
   ON System#Init DO RuleTimer1 10 ENDON 
   ON Rules#Timer=1 DO Backlog LoRaSend %Var1%; RuleTimer1 10 ENDON
 ```
+#### Newline မပါချင်ရင် LoRaSend2 ကိုသုံးရမယ် ပြောတယ်။ New line မပါမှ အဆင်ပြေတာကို တွေ့ရတယ်
+
+```
+Rule1
+ON SR04#Distance DO Var1 %value% ENDON
+  ON System#Init DO RuleTimer1 10 ENDON 
+  ON Rules#Timer=1 DO Backlog LoRaSend2 %Var1%; RuleTimer1 10 ENDON
+```
+
+#### Lora Receiver ဘက်
+- အောက်က rule နဲ့ အဆင်ပြေတယ်။
+
+```
+Rule1 ON LoRaReceived DO var1= (%value%*0.0328) ENDON ON var1#state DO Publish cmnd/tasmota_12A214/DisplayText [l1c1] WaterLevel [l2c1] %var1% ft ENDON
+```
+- mm ကို ပေ ပြောင်းမယ်။
+
+```
+Rule1 ON LoRaReceived DO var1 %value% ENDON ON var1#state DO Publish cmnd/tasmota_12A214/DisplayText [l1c1] WaterLevel [l2c1] %var1% mm ENDON
+```
+  
+
 ### Lora Command အား အသုံးပြုခြင်း
 - LoRaOption4 1: enable reception of LoRaCommand commands. No security, anyone in range can send any command.
 - LoRaCommand <topic_of_lora_receiver> <command>: send command to device with MQTT topic.
